@@ -1,0 +1,86 @@
+// Crie um componente chamado 'OlaMundo' que mostra uma mensagem:
+// "Olá, Mundo!!" em uma <div> com o fundo vermelho, texto centralizado na cor
+// azul.
+// 01
+import React from "react";
+
+function OlaMundo() {
+  return (
+    <div
+      style={{
+        backgroundColor: "red",
+        color: "blue",
+        textAlign: "center",
+      }}
+    >
+      Olá, Mundo!!
+    </div>
+  ); 
+}
+
+function App() {
+  return (
+    <div>
+      <OlaMundo />
+    </div>
+  );
+}
+
+export default App;
+
+
+// 02 Crie um componente chamado 'DiaAtual' que mostra o texto:
+// "15" em uma <div> com o fundo azul, texto centralizado na cor branco
+function DiaAtual() {
+  return (
+    <div
+      style={{
+        backgroundColor: "blue",
+        color: "white",
+        textAlign: "center"
+      }}
+    > 
+    30
+    </div>
+  );
+}
+
+export default DiaAtual;
+
+//03Crie um componente chamado 'MesAtual' que mostra o texto:
+// "03" em uma <div> com o fundo verde, texto justificado à esquerda na cor branco.
+function MesAtual() {
+  return (
+    <div
+      style={{
+        backgroundColor: "green",
+        color: "white",
+        textAlign: "left"
+      }}
+    >
+      09
+    </div>
+  );
+}
+
+export default MesAtual;
+
+//04Crie um componente chamado 'AnoAtual' que mostra o texto:
+// "2024" em uma <div> com o fundo vermelho, justificado à direita na cor amarelo.
+function AnoAtual() {
+  return (
+    <div
+      style={{
+        backgroundColor: "red",
+        color: "yellow",
+        textAlign: "right"
+      }}
+    >
+      2025
+    </div>
+  );
+}
+
+export default AnoAtual;
+    
+// 05
